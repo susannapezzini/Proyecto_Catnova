@@ -21,7 +21,7 @@ Gracias a los aportes de la administración pública y la Fundación Obra Social
 
 Este año, con el proyecto Projump voluntariado esperamos concretar más puestos de trabajos contactando directamente con las empresas de l’Eixample Esquerra.
 
-¿Qué pensamos y como lo hacemos?
+**¿Qué pensamos y como lo hacemos?**
 
 La Associació Catnova es una entidad sin ánimos de lucro fundada sobre las bases de la solidaridad, participación social, interculturalidad y promoción de valores. Los programas y proyectos que desarrolla CatNova tienen como ejes transversales esos principios esenciales de la asociación.
 
