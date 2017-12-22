@@ -5,6 +5,8 @@
 
 La asociación Catnova, fundada en 2006, ofrece itinerarios personalizados y bolsa de empleo para el desarrollo personal, laboral o empresarial y promueve la participación activa de personas y entidades en la sociedad civil contribuyendo así con el cambio en la conciencia social
 
+![test Image](http://catnova.cat/wp-content/uploads/2017/11/voluntario_1.jpg)
+
 ## Historia
 
 Catnova nace en el año 2006 con el objetivo de dar apoyo a la población inmigrante en su proceso de acomodación en la sociedad catalana. A través de la difusión de información, formación en valores y crecimiento personal, logramos contribuir a la construcción de una nueva sociedad multicultural, inclusiva y solidaria.
