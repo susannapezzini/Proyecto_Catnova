@@ -1,5 +1,10 @@
 # Catnova
 
+#### Menu
+* Sobre Nosotros
+* Cursos
+* Contactos
+
 ## Nosotros
 
 
@@ -24,6 +29,27 @@ Este año, con el proyecto Projump voluntariado esperamos concretar más puestos
 **¿Qué pensamos y como lo hacemos?**
 
 La Associació Catnova es una entidad sin ánimos de lucro fundada sobre las bases de la solidaridad, participación social, interculturalidad y promoción de valores. Los programas y proyectos que desarrolla CatNova tienen como ejes transversales esos principios esenciales de la asociación.
+
+## Proyectos
+
+Gracias al proyecto “Construyendo Hoy” de participación y voluntariado iniciado  en 2006 procuramos fortalecer y darle forma al trabajo en red con otras entidades públicas y privadas. Catnova coordinó la conformación de sinergias, realizó diagnósticos, promovía reuniones de evaluación y el apoyo en red a otras asociaciones enfocadas a los colectivos más vulnerables de la sociedad.
+
+En cuanto a la promoción del voluntariado, Catnova ofrecía formación y organización de eventos solidarios en diferentes entidades, así como facilitar la información necesaria para conectar a los potenciales voluntarios, a través del networking con otras entidades de la ciudad.
+
+En el año 2014 se inició “La Red lazos” una red de entidades afines a través de las cuales ampliamos los servicios y nos fortalecemos mutuamente. (Ver Alianzas)
+
+A través del proyecto “Projump inclusión”, iniciado en 2010,  Catnova ha ofrecido itinerarios personalizados,  formación integral, coaching, acompañamiento y bolsa de empleo para ayudar a construir una sociedad cada vez más inclusiva y próspera al preparar a los usuarios de forma integral en sus procesos de búsqueda de mejores empleos o de concreción de su iniciativa empresarial.
+
+Este año ampliamos el  proyecto con  “Projump voluntariado”, con la participación de un centro de voluntariado de mujeres no regularizadas a quienes se ofrecerá acompañamiento y una formación que les permita realizar el contacto con empresas de la zona de l’Eixample Esquerra. Gracias a las prácticas de los cursos de prospección y ventas que se imparten en nuestra sede,  lograremos que conecten con los puestos de trabajo disponibles que respondan a los perfiles de nuestros beneficiarios, mayormente latinoamericanos en las áreas de geriatría, hostelería y servicio al cliente.
+
+Desde sus inicios, Catnova se ha caracterizado por practicar un enfoque positivo, espontáneo, profesional y centrado en la realización personal, tanto del equipo, como de los beneficiarios en riesgo de exclusión social de los diferentes programas.
+
+
+
+
+## Voluntarios
+
+A lo largo de casi 10 años han pasado por Catnova un número significativo de voluntarios. Ellos han sido y son el corazón del proyecto. Desde comunicadores sociales, profesores de idiomas, expertos en finanzas, administrativos, personal de apoyo en actividades, clases de refuerzo, de conversación, guías turísticas, formadores de cursos complementarios, etc. Grupos multiculturales y multigeneracionales, gente con mucho entusiasmo que aportan su tiempo y buena disposición por ayudar a los alumnos a mejorar su competitividad y profesionalización. Estos voluntarios encuentran en la asociación un ambiente adecuado y divertido donde desarrollar sus capacidades y reforzarlas, a la vez que participan en una acción social. Están cubiertos por un seguro para voluntarios y pueden asistir a todas las actividades de forma gratuita. A todos ellos muchas gracias.
 
 
 
