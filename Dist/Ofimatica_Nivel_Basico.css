@@ -1,0 +1,37 @@
+html {
+  font-size: 18px; }
+
+html {
+  font-size: 18px; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 7.5rem;
+  min-width: 100vw;
+  background-color: linear-gradient(#2F5CAC, #3B6FCC);
+  padding-left: 6.45rem;
+  padding-right: 5.7rem; }
+
+.items {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: source sans pro, helvetica, sans-serif;
+  color: #FAFAFA;
+  font-size: 1.3rem;
+  font-weight: 600; }
+
+body {
+  box-sizing: border-box;
+  background-color: #FAFAFA; }
+
+h1 {
+  color: #1A1A1a;
+  font-family: Heebo;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 4, 5rem; }
+
+/*# sourceMappingURL=Ofimatica_Nivel_Basico.css.map */
