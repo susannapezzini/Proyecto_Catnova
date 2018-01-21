@@ -1,0 +1,17 @@
+@import 'settings';
+@import 'menu';
+
+body {
+    box-sizing: border-box;
+    background-color: $c-background;
+}
+
+h1 {
+    color: $c-typography;
+    font-family: $h1-family;
+    font-weight: $h1-fontweight;
+    font-size: $h1-size;
+    line-height: $h1-lineheight;
+    
+}
+

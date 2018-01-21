@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAyCA,IAAK;EACD,SAAS,EAAE,IAAI;;ACvCnB,IAAK;EACD,UAAU,EAAE,UAAU;EACtB,gBAAgB,EDHN,OAAO;;ACMrB,EAAG;EACC,KAAK,EDDM,OAAO;ECElB,WAAW,EDIH,KAAK;ECHb,WAAW,EDIC,IAAI;ECHhB,SAAS,EDIH,IAAI;ECHV,WAAW,EDIA,OAAM",
+"sources": ["../src/_settings.scss","../src/ficha_curso.scss"],
+"names": [],
+"file": "ficha_curso.css"
+}
