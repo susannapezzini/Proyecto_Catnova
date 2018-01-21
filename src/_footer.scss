@@ -1,0 +1,51 @@
+@import 'settings';
+
+
+.footer {
+
+    background-color: $c-footer;
+    min-width: 100vw;
+    height: 28.5rem;
+    padding-left: 6.45rem;
+    padding-right: 6.45rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &.item {
+
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+        &.one {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+
+        &.two {
+
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+
+        &.three {
+
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            padding-bottom: 6rem;
+
+        }
+
+
+
+    }
+}
