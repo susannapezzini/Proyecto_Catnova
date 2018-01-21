@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAyCA,IAAK;EACD,SAAS,EAAE,IAAI;;AADnB,IAAK;EACD,SAAS,EAAE,IAAI;;ACxCnB,KAAM;EAEF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,KAAK;EAChB,gBAAgB,EDLX,iCAAgC;ECOrC,YAAY,EAAE,OAAO;EACrB,aAAa,EAAE,MAAM;;AAKzB,MAAO;EAEH,YAAY,EAAE,OAAO;EACrB,aAAa,EAAC,OAAO;EACrB,WAAW,EAAE,sCAAsC;EACnD,KAAK,EDdW,OAAO;ECevB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;;ACtBpB,IAAK;EACD,UAAU,EAAE,UAAU;EACtB,gBAAgB,EFHN,OAAO;;AEMrB,EAAG;EACC,KAAK,EFDM,OAAO;EEElB,WAAW,EFIH,KAAK;EEHb,WAAW,EFIC,IAAI;EEHhB,SAAS,EFIH,IAAI;EEHV,WAAW,EFIA,OAAM",
-"sources": ["../Src/_settings.scss","../Src/_menu.scss","../Src/Ofimatica_Nivel_Basico.scss"],
+"sources": ["../Src/_settings.scss","../Src/_menu.scss","../Src/ficha_curso.scss"],
 "names": [],
-"file": "Ofimatica_Nivel_Basico.css"
+"file": "ficha_curso.css"
 }
