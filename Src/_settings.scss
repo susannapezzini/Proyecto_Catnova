@@ -5,7 +5,7 @@ $c-sidenavigation:#3B6FCC;
 $c-footer: linear-gradient(#1A1A1A, #595959);
 $c-menu: linear-gradient(#2F5CAC,#3B6FCC);
 $c-prefooter: linear-gradient(#2F5CAC,#3B6FCC);
-$c-buttonaction: linear-gradient(#FF5B32,#E7522C);
+$c-buttonaction: linear-gradient(#FFb836,#f5a623);
 $c-typography: #1A1A1a;
 $c-typographyother: #FAFAFA;
 
@@ -49,6 +49,15 @@ html {
 }
 
 
+img {
+    width: 100%;
+    height:100%;
+}
+
+
+
+// Typography Styles 
+
 h1 {
     font-family: $h1-family;
     font-weight: $h1-fontweight;
@@ -87,25 +96,24 @@ p {
 }
 
 
-img {
-    width: 100%;
-    height:100%;
-}
 
+// Button Styles
 
 .button {
+    
+        background-color: $c-buttonaction;
+        border-radius: 4px;
+        color: $c-typographyother;
+        display: inline-block;
+        font-family: $button-family;
+        font-size: $button-fontsize;
+        font-weight: $button-fontweight;
+        height: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+        
+        
+    }
 
-    background-color: $c-buttonaction;
-    border-radius: 4px;
-    color: $c-typographyother;
-    display: inline-block;
-    font-family: $button-family;
-    font-size: $button-fontsize;
-    font-weight: $button-fontweight;
-    height: 3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    text-align: center;
-    
-    
-}
+
