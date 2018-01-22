@@ -1,0 +1,28 @@
+@import 'settings';
+
+
+.prefooter {
+
+    align-items: center;
+    background-color: $c-prefooter;
+    color: $c-background; 
+    display: flex;
+    height: 16.5rem;
+    flex-direction: column;
+    justify-content: start;
+    min-width: 100vw;
+    padding-left: 6.45rem;
+    padding-right: 6.45rem;    
+          
+    &.cursos {
+
+        margin-left: 1.5rem;
+
+        &.button {
+            margin: 1.5rem;
+        }
+    }
+}
+
+
+
