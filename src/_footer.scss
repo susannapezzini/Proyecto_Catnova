@@ -3,13 +3,13 @@
 
 .footer {
 
-    background-color: $c-footer;
-    min-width: 100vw;
+    background-image: $c-footer;
+    max-width: 100vw;
     height: 28.5rem;
     padding-left: 6.45rem;
     padding-right: 6.45rem;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     flex-wrap: nowrap;
 
     &.item {
@@ -17,13 +17,14 @@
         margin: 1.5rem;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
 
 
         &.one {
 
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: row;
+            // flex-wrap: wrap;
             justify-content: space-around;
             align-items: flex-start;
         }
@@ -39,6 +40,7 @@
         &.three {
 
             display: flex;
+            flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-around;
             padding-bottom: 6rem;

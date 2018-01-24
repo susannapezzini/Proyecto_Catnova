@@ -8,18 +8,197 @@
 
 
 
-body {
-    box-sizing: border-box;
-    background-color: $c-background;
-}
-
-// h1 {
-    // color: $c-typography;
-    // font-family: $h1-family;
-    // font-weight: $h1-fontweight;
-    // font-size: $h1-size;
-    // line-height: $h1-lineheight;
-    
+// body {
+//     box-sizing: border-box;
+//     background-color: $c-background;
+//     margin: 0;
+//     max-width: 100vw;
 // }
 
+.container1 {
+
+    padding-left: 6.45rem;
+    padding-right: 6.45rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.heroarea {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &.h1 {
+
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+}
+
+.quote {
+    text-align: left;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.sidenavbar {
+    position: fixed;
+    z-index: 1;
+    top: 13.5rem;
+    left: 75vw;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 50vh;
+    padding-left: 1.5rem;
+    margin: 1rem;
+
+}
+
+.sidenavbar.info {
+
+    // line-height: 0.5rem;
+    background-color: $c-sidenavigation;
+    border-radius: 4px;
+    box-shadow: 0.25rem 0.25rem 1rem $c-shadow;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.info {
+    color: $c-typographyother;
+}
+
+
+
+.container2 {
+    
+        padding-left: 6.45rem;
+        padding-right: 6.45rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        max-width: 66.5vw;
+        margin-right: 0 1.5rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+
+
+.download {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#textaction {
+
+    color:$c-textaction;
+    padding-right: 0.5rem;
+}
+
+
+.module {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin: 0;
+}
+
+.module.box {
+    outline: 1rem solid lime;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 1.5rem 0 0 0;
+}
+
+#modules {
+
+    color:$c-typography;
+}
+
+
+.signup {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;    
+        
+}
+    
+.quote.bottom {
+
+    text-align: center;
+
+}
+
+
+
+
+
+    
+
+    .container3 {
+        
+            padding-left: 6.45rem;
+            padding-right: 6.45rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+
+        }
+
+
+    .mightlike {
+
+        display: flex;
+        flex-direction: row;
+        flex-direction: flex-start;
+        
+        
+
+    }
+
+.related {
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-start;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    border-radius: 4px 4px 0 0;
+    // box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.class.related.item {
+    line-height: 0.3rem;
+    max-width: 30vw;
+    background-color:$c-sidenavigation;
+    color: $c-typographyother;
+    padding: 1.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem $c-shadow;
+}
+
+.class.related.action {
+    max-width: 30vw;
+    background-color: $c-background;
+    padding:1.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem $c-shadow;
+
+
+
+}
 
