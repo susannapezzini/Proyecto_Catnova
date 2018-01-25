@@ -559,7 +559,6 @@ a {
   margin: 0; }
 
 .module.box {
-  outline: 1rem solid lime;
   display: flex;
   flex-direction: row;
   align-content: flex-start;
