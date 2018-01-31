@@ -2,6 +2,7 @@
 @import 'menu';
 @import 'prefooter';
 @import 'footer';
+@import 'container1';
 
 // @import 'typography';
 // @import 'button';
@@ -65,7 +66,7 @@
 
 }
 
-.sidenavbar.info {
+.sidenavbar--info {
 
     // line-height: 0.5rem;
     background-color: $c-sidenavigation;
