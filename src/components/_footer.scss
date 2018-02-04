@@ -1,38 +1,36 @@
 .footer {
-    // align-content: baseline;
-    // width: 100vw;
-    background-image: $c-footer;
-    font-size: 0.80rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
+  // align-content: baseline;
+  // width: 100vw;
+  background-image: $c-footer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.80rem;
+  justify-content: space-around;
+  margin: 0;
 }
-
 
 .footer.items {
 
-    background-color: none;
-    background-image: none;
-    display: flex;
-    flex-flow: column wrap;
+  @include div-transparency;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .footer.item {
 
+    align-items: center;
+
+    @include div-transparency;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    align-items: center;
-    background-color: none;
-    background-image: none;
 
 }
 
 .footer.item.info {
-    background-color: none;
-    background-image: none;
+
+    @include div-transparency;
     flex-wrap: wrap;
     margin:1.5rem;
 
@@ -40,8 +38,8 @@
 
 .footer.item.two {
 
-    background-color: none;
-    background-image: none;
+
+    @include div-transparency;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -52,8 +50,8 @@
 
 .social {
     
-    background-color: none;
-    background-image: none;
+
+    @include div-transparency;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -63,8 +61,8 @@
 }
 
 .footer.text {
-    background-color: none;
-    background-image: none;
+
+    @include div-transparency;
     color: $c-typographyother;
 
 
@@ -73,7 +71,7 @@
 
 
 .logo {
-    background-image: none;
+    @include div-transparency;
     padding: 1.5rem;
     
 }
@@ -89,7 +87,7 @@
 //     flex-wrap: wrap;
 //     min-width: 100vw;
 //     justify-content: center;
-//     background-image: none;
+//     @include div-transparency;
 //     // margin: 2%;
 // }
 
@@ -99,7 +97,7 @@
 //     display: flex;
 //     flex-wrap: wrap;
 //     // align-items: flex-start;
-//     background-image: none;
+//     @include div-transparency;
 //     padding: 2%;
 // }
 
@@ -107,7 +105,7 @@
 //     display: inline-flex;
 //     flex-wrap: wrap;
 //     justify-content: center;
-//     background-image: none;
+//     @include div-transparency;
 //     // align-content: flex-end;
 // }
 
@@ -115,7 +113,7 @@
 // .footer.text {
 //     display: flex;
 //     flex-wrap: wrap;
-//     background-image: none;
+//     @include div-transparency;
 // }
 
 // .footer.social {
@@ -123,7 +121,7 @@
 //     flex-wrap: wrap;
 //     flex-direction: row;
 //     margin: 3%;
-//     background-image: none;
+//     @include div-transparency;
 // }
 
 
