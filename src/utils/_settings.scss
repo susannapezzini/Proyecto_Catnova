@@ -1,0 +1,82 @@
+// Colors Variables 
+
+$c-background:#FAFAFA;
+$c-sidenavigation:#3B6FCC;
+$c-footer: linear-gradient(#1A1A1A, #595959);
+$c-menu: linear-gradient(#2F5CAC,#3B6FCC);
+$c-prefooter: linear-gradient(#2F5CAC,#3B6FCC);
+$c-buttonaction: linear-gradient(#FFb836,#f5a623);
+$c-textaction:#f5a623;
+$c-buttontext:#203F77;
+$c-typography: #1A1A1a;
+$c-typographyother: #FAFAFA;
+$c-shadow:#c9c9c9;
+
+
+// Typography Variables
+
+$h-fontfamily: "heebo", helvetica, sans-serif;
+$p-fontfamily: "source sans pro", helvetica, sans-serif;
+
+$t-regular: 400;
+$t-semibold: 600;
+
+$h1-size: 4rem;
+$h1-lineheight:4,5rem;
+
+
+$h2-size: 2.3rem;
+$h2-lineheight: 3rem;
+
+$h3-fontweight: 400;
+$h3-size: 1.8rem;
+$h3-lineheight: 2.3rem;
+
+$h6-size: 1rem;
+$h6-lineheight: 1.5rem;
+
+$p-size: 1rem;
+$p-lineheight:1.5rem;
+
+$quote-size: 2.5rem;
+$quote-height: 3rem;
+
+
+
+// Values
+
+$value: 1rem;
+
+
+$button-fontsize: 1.3rem;
+
+
+
+
+
+html {
+    font-size: 18px;
+}
+
+
+img {
+    width: auto;
+    height: auto;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $c-background;
+    margin: 0;
+    max-width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,5 @@
-@import 'settings';
-
-
-
 .footer {
-        // align-content: baseline;
+    // align-content: baseline;
     // width: 100vw;
     background-image: $c-footer;
     font-size: 0.80rem;
@@ -12,7 +8,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-
 }
 
 
