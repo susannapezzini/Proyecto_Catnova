@@ -16,13 +16,13 @@ ul {
     font-family: $p-fontfamily;
 }
 
-li,
-ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
+// li,
+// ul {
+//     list-style-type: none;
+//     text-decoration: none;
+//     margin: 0;
+//     padding: 0;
+// }
 
 
 h3,
@@ -63,8 +63,8 @@ p {
 
 ul,
 a {
-    color:$c-typographyother;   
-    text-decoration: none;
+    color:$c-white;   
+    // text-decoration: none;
 }
 
 .quote {
