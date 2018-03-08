@@ -1,65 +1,9 @@
 // Typography Styles 
 
-h1,
-h2,
-h6 {
-    font-family: $h-fontfamily;
-    font-weight: $t-semibold;
-    text-decoration: none;
-}
-
-h3,
-h6,
-p,
-li,
-ul {
-    font-family: $p-fontfamily;
-}
-
-// li,
-// ul {
-//     list-style-type: none;
-//     text-decoration: none;
-//     margin: 0;
-//     padding: 0;
-// }
 
 
-h3,
-p,
-li {
-    font-weight: $t-regular;
-}
 
 
-h1 {
-    font-size: $h1-size;
-    line-height: $h1-lineheight;
-    line-height: $p-lineheight;
-}
-
-h2 {
-    font-size: $h2-size;
-    line-height: $h2-lineheight;
-    line-height: $p-lineheight;
-}
-
-h3 {
-  
-    font-size: $h3-size;
-    line-height: $h3-lineheight;
-    line-height: $p-lineheight;
-}
-
-h6 {
-    font-size: $h6-size;
-    line-height: $h6-lineheight;
-}
-
-p {
-    font-size: $p-size;
-    line-height: $p-lineheight;
-}
 
 ul,
 a {
