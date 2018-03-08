@@ -1,0 +1,40 @@
+.nav {
+    // text-transform: uppercase;
+    align-items: center;
+    background-image:$c-menu;
+    display: flex;
+    font-family: $p-fontfamily;
+    font-size: 1.25rem;
+    height: 7.5rem;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 7.125rem;
+    width: 100vw;
+
+    &_logo {
+        height: 100px;
+    }
+
+    &_list {
+        align-items: center;
+        color: $c-white;
+        display:flex;
+        font-weight: $t-regular;
+        
+    }
+
+    &_list:hover {
+        font-weight: $t-bold;
+        }
+
+    &_item {
+        @include textstyle-none;
+        padding: 0 1.5rem;
+        
+    }
+
+    &_link {
+        @include textstyle-none;
+        
+    }
+}
