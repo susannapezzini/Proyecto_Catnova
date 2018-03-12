@@ -1,7 +1,7 @@
 // Colors Variables 
 
 $c-white:#FAFAFA;
-$c-sidenavigation:#3B6FCC;
+$c-sidenav:#3B6FCC;
 $c-footer: linear-gradient(#1A1A1A, #595959);
 $c-menu: linear-gradient(#2F5CAC,#3B6FCC);
 $c-prefooter: linear-gradient(#2F5CAC,#3B6FCC);
@@ -17,12 +17,13 @@ $c-shadow:#c9c9c9;
 $h-fontfamily: "heebo", helvetica, sans-serif;
 $p-fontfamily: "source sans pro", helvetica, sans-serif;
 
+$t-light:300;
 $t-regular: 400;
 $t-semibold: 600;
 $t-bold: 900;
 
 $h1-size: 4rem;
-$h1-lineheight:4,5rem;
+$h1-lineheight: 4.5rem;
 
 
 $h2-size: 2.3rem;
@@ -38,8 +39,8 @@ $h6-lineheight: 1.5rem;
 $p-size: 1rem;
 $p-lineheight:1.5rem;
 
-$quote-size: 2.5rem;
-$quote-height: 3rem;
+$quote-size: 1.6rem;
+$quote-height: 2.5;
 
 
 

@@ -10,6 +10,10 @@
     margin: 0;
     padding: 0 7.125rem;
     width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 
     &_logo {
         height: 100px;
@@ -23,7 +27,7 @@
         
     }
 
-    &_list:hover {
+    &_link:hover {
         font-weight: $t-bold;
         }
 
