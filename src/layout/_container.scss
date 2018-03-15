@@ -1,0 +1,163 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem 0 6rem 0;
+    padding: 6.45rem;
+}
+
+.heroarea {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    
+        &.h1 {
+    
+            margin-bottom: 3rem;
+            text-align: left;
+        }
+    }
+    
+    .quote {
+        text-align: left;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .container2 {
+        
+            padding-left: 6.45rem;
+            padding-right: 6.45rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            max-width: 66.5vw;
+            margin-right: 0 1.5rem 0 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            
+        }
+    
+    
+    .download {
+    
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    #textaction {
+    
+        color:$c-textaction;
+        padding-right: 0.5rem;
+    }
+    
+    
+    .module {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin: 0;
+        
+    }
+    
+    .module.box {
+        // outline: 1rem solid lime;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin: 1.5rem 0 0 0;
+        width: 15vw;
+        padding: 1.5rem;
+        
+    }
+    
+    #modules {
+    
+        color:$c-typography;
+    }
+    
+    
+    .signup {
+    
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start; 
+        
+            
+    }
+        
+    .quote.bottom {
+    
+        text-align: left;
+    
+    }
+    
+    
+    
+    
+    
+        
+    
+        .container3 {
+            
+                padding-left: 6.45rem;
+                padding-right: 6.45rem;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+    
+            }
+    
+    
+        .mightlike {
+    
+            display: flex;
+            flex-direction: row;
+            flex-direction: flex-start;
+            flex-wrap: wrap;
+            
+    
+        }
+    
+    .related {
+        display: flex;
+        flex-direction: column;
+        flex-direction: flex-start;
+        padding: 1.5rem 1.5rem 1.5rem 0;
+        border-radius: 4px 4px 0 0;
+        flex-wrap: wrap;
+        // box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
+    
+    }
+    
+    
+    .class.related.item {
+        line-height: 0.3rem;
+        max-width: 30vw;
+        background-color:$c-sidenav;
+        color: $c-white;
+        padding: 1.5rem;
+        box-shadow: 0.25rem 0.25rem 1rem $c-shadow;
+    }
+    
+    .class.related.action {
+        max-width: 30vw;
+        background-color: $c-white;
+        padding:1.5rem;
+        box-shadow: 0.25rem 0.25rem 1rem $c-shadow;
+    
+    
+    
+    }

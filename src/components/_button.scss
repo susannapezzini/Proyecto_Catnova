@@ -1,0 +1,23 @@
+// Button Styles
+
+.button {
+    
+        background-image: $c-buttonaction;
+        border-radius: 4px;
+        border: none;
+        color: $c-buttontext;
+        display: inline-block;
+        font-family: $p-fontfamily;
+        font-size: $button-fontsize;
+        font-weight: $t-semibold;
+        margin: 0;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        
+        
+    }
+
+    .button:hover {
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
+    }
