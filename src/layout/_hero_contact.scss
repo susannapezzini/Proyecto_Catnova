@@ -1,0 +1,38 @@
+.hero_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+    &_info {
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       font-family: $p-fontfamily;
+       font-size: $p-size;
+    }
+
+       &_info-title {
+           font-family: $h-fontfamily;
+           font-size: $h3-size;
+       }
+   
+
+    &_maps img {
+       height: 500px;
+       width: 990px;
+    }
+
+}
+
+.hero_contact_info-title,
+.hero_contact_info-adress,
+.hero_contact_info-tel,
+.hero_contact_info-correo, {
+    padding: 0 8rem 0 8rem;
+}
+
+.hero_contact_maps {
+    padding: 3rem 0 3rem 0;
+}

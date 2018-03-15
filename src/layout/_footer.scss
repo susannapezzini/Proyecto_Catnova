@@ -1,128 +1,71 @@
 .footer {
   // align-content: baseline;
   // width: 100vw;
-  background-image: $c-footer;
+  background: $c-footer;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: 0.80rem;
-  justify-content: space-around;
-  margin: 0;
-}
+  justify-content: space-between;
 
-.footer.items {
+  &_nav_logo {
+      display: flex;
+      align-items: center;
+      padding: 3rem;
+  }
 
-  @include div-transparency;
-  display: flex;
-  flex-flow: column wrap;
-}
+  &_nav_logo img {
+    height: 100px;
+    width: 100px;
+    // position: absolute;
+    // left: 5%;
+  }
 
-.footer.item {
-
-    align-items: center;
-
-    @include div-transparency;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-
-}
-
-.footer.item.info {
-
-    @include div-transparency;
-    flex-wrap: wrap;
-    margin:1.5rem;
-
-}
-
-.footer.item.two {
-
-
-    @include div-transparency;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.social {
-    
-
-    @include div-transparency;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin:0 1.5rem 1.5rem 1.5rem;
-
-}
-
-.footer.text {
-
-    @include div-transparency;
+  &_elements {
+    font-size: 0.9rem;
     color: $c-white;
+    font-family: $p-fontfamily;
+    display: flex;
+    flex-direction: column; 
 
+    &_items {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        }
+
+        &_social {
+            display: flex;
+            flex-direction: row;
+        }
+
+            &_social img {
+                height: 80px;
+                width: 80px;
+                padding: 1rem;
+                text-decoration: none;
+            }
+        }
+}
+
+.footer_elements_items-adress,
+.footer_elements_items-tel {
+    margin: 1rem 2.5rem;
+}
+
+.footer_elements_items-time {
+    margin: 1rem 5rem 1rem 2.5rem;
+}
+
+.footer_elements_social,
+.footer_elements_text {
+    margin:0 auto;
+}
+
+.footer_nav_logo {
 
 }
 
 
-
-.logo {
-    @include div-transparency;
-    padding: 1.5rem;
-    
-}
-
-// .footer.logo .img.logo {
-//     width: 100px;
-//     height: 100px;
-//     margin: 5%;
-// }
-
-// .footer.item.one {
-//     display: inline-flex;
-//     flex-wrap: wrap;
-//     min-width: 100vw;
-//     justify-content: center;
-//     @include div-transparency;
-//     // margin: 2%;
-// }
-
-// .footer.direction,
-// .footer.telefono,
-// .footer.horario {
-//     display: flex;
-//     flex-wrap: wrap;
-//     // align-items: flex-start;
-//     @include div-transparency;
-//     padding: 2%;
-// }
-
-// .footer .footer.itemtwo {
-//     display: inline-flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     @include div-transparency;
-//     // align-content: flex-end;
-// }
-
-
-// .footer.text {
-//     display: flex;
-//     flex-wrap: wrap;
-//     @include div-transparency;
-// }
-
-// .footer.social {
-//     display: flex;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     margin: 3%;
-//     @include div-transparency;
-// }
 
 
 
