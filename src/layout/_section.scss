@@ -1,0 +1,17 @@
+.sheet {
+    margin: 6rem 0 0 7.125rem;
+    width: 66vw;
+    font-family: $p-fontfamily;
+    line-height: 1.5rem;
+    font-weight: $t-light;
+
+    &_title {
+        font-size: $h2-size;
+        line-height: $h2-lineheight;
+        font-family: $h-fontfamily;
+    }
+
+    &_divider {
+        font-weight: $t-semibold;
+    }
+}
