@@ -2,7 +2,7 @@
   "name": "Proyecto_Catnova",
   "version": "1.0.0",
   "description": "#### Menu * Sobre Nosotros * Cursos * Contactos",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
     "start": "parcel src/index.html watch -p 8888",
