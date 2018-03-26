@@ -12,10 +12,6 @@ body {
   padding: 0;
   width: 100vw; }
 
-ul,
-a {
-  color: #FAFAFA; }
-
 .quote {
   font-family: "source sans pro", helvetica, sans-serif;
   font-size: 1.6rem;

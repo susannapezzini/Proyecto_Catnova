@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({72:[function(require,module,exports) {
+})({15:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],71:[function(require,module,exports) {
+},{}],14:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,19 +132,19 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":72}],70:[function(require,module,exports) {
+},{"./bundle-url":15}],13:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":71}],69:[function(require,module,exports) {
+},{"_css_loader":14}],3:[function(require,module,exports) {
 'use strict';
 
 require('../scss/index.scss');
 
 console.log('HELLO PARCEL');
-},{"../scss/index.scss":70}],68:[function(require,module,exports) {
+},{"../scss/index.scss":13}],25:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54313' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63705' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -267,5 +267,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[68,69])
+},{}]},{},[25,3])
 //# sourceMappingURL=/dist/proyecto_catnova.map
