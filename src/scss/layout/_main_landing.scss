@@ -5,6 +5,7 @@
 }
 
 .main_landing-bg {
+    background-image: url("../images/pics/hero_landing.png");
     background: linear-gradient(rgba(43, 43, 43, 0.84),rgba(72, 72, 72, 0.84));
 }
 
@@ -14,4 +15,8 @@
 
 .hide {
 	display: none;
+}
+
+.h3 {
+    color: red;
 }

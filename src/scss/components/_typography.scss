@@ -1,9 +1,7 @@
 // Typography Styles 
 
-.quote {
-
-    font-family: $p-fontfamily;
-    font-size: $quote-size;
-    line-height: $quote-height;
-    font-weight: $t-regular;
+@mixin titlestyle {
+    font-family: $h-fontfamily;
+    color: $c-black;
+    font-size: 2rem;
 }
