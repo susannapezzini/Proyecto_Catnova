@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"D:\\documents\\www\\proyecto_catnova\\package.json","includedInParent":true,"mtime":1521487243073},{"name":"../scss/index.scss","loc":{"line":1,"column":7}}],"generated":{"js":"\"use strict\";require(\"../scss/index.scss\"),console.log(\"HELLO PARCEL\");"},"hash":"3f0f492f9a9716087b48bc2601e25d86","cacheData":{"env":{}}}

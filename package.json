@@ -2,10 +2,17 @@
   "name": "proyecto_catnova",
   "version": "1.0.0",
   "description": "* Sobre Nosotros\r * Cursos\r * Contactos",
+<<<<<<< HEAD
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
+    "start": "parcel src/index.html watch -p 1234",
+=======
   "main": "js/index.js",
   "scripts": {
     "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
     "start": "parcel src/index.html watch -p 8888",
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
     "deploy": "npm run build && gh-pages -d dist",
     "build": "parcel build src/index.html --public-url ./ --out-dir dist"
   },
@@ -16,13 +23,22 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
+=======
   "dependencies": {
     "parcel-bundler": "^1.6.2"
   },
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
   "bugs": {
     "url": "https://github.com/susannapezzini/Proyecto_Catnova/issues"
   },
   "homepage": "https://github.com/susannapezzini/Proyecto_Catnova#readme",
+<<<<<<< HEAD
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+=======
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
   "devDependencies": {
     "node-sass": "^4.7.2",
     "gh-pages": "^1.1.0"
