@@ -2,13 +2,13 @@
 
 .button {
     
-        background-image: $c-buttonaction;
+        background-image: $c-orangegradient;
         border-radius: 4px;
         border: none;
-        color: $c-buttontext;
+        color: $c-darkblue;
         display: inline-block;
         font-family: $p-fontfamily;
-        font-size: $button-fontsize;
+        font-size: 1rem;
         font-weight: $t-semibold;
         margin: 0;
         padding: 1rem 1.5rem;

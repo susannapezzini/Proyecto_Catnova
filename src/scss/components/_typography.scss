@@ -1,20 +1,8 @@
 // Typography Styles 
 
-
-
-
-
-
-ul,
-a {
-    color:$c-white;   
-    // text-decoration: none;
+@mixin titlestyle {
+    font-family: $h-fontfamily;
+    color: $c-black;
+    font-size: 2rem;
 }
 
-.quote {
-
-    font-family: $p-fontfamily;
-    font-size: $quote-size;
-    line-height: $quote-height;
-    font-weight: $t-regular;
-}
