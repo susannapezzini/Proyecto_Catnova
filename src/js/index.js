@@ -1,3 +1,3 @@
-import '../src/index.scss';
+import '../index.scss';
 
 console.log('HELLO PARCEL')

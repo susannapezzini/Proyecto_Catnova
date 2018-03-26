@@ -1,14 +1,13 @@
 {
-  "name": "Proyecto_Catnova",
+  "name": "proyecto_catnova",
   "version": "1.0.0",
-  "description": "#### Menu * Sobre Nosotros * Cursos * Contactos",
+  "description": "* Sobre Nosotros\r * Cursos\r * Contactos",
   "main": "js/index.js",
   "scripts": {
     "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
     "start": "parcel src/index.html watch -p 8888",
     "deploy": "npm run build && gh-pages -d dist",
     "build": "parcel build src/index.html --public-url ./ --out-dir dist"
-  },
   },
   "repository": {
     "type": "git",
@@ -17,13 +16,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
   "bugs": {
     "url": "https://github.com/susannapezzini/Proyecto_Catnova/issues"
   },
   "homepage": "https://github.com/susannapezzini/Proyecto_Catnova#readme",
-  "dependencies": {
-    "parcel-bundler": "^1.6.2"
-  },
   "devDependencies": {
     "node-sass": "^4.7.2",
     "gh-pages": "^1.1.0"
