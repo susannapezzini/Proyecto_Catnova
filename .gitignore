@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/sass,node,macos,windows
+=======
+# Created by https://www.gitignore.io/api/sass,node,macos
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
 
 ### macOS ###
 *.DS_Store
@@ -59,6 +63,42 @@ bower_components
 
 # node-waf configuration
 .lock-wscript
+<<<<<<< HEAD
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+
+### Sass ###
+.sass-cache/
+*.css.map
+=======
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
@@ -93,26 +133,9 @@ typings/
 .sass-cache/
 *.css.map
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-
+<<<<<<< HEAD
 # End of https://www.gitignore.io/api/sass,node,macos,windows
+=======
+# End of https://www.gitignore.io/api/sass,node,macos
+>>>>>>> d9c4dd82fab6e2467f55d9d4eec17f646539d534
