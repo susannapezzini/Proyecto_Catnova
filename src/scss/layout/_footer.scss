@@ -1,7 +1,7 @@
 .footer {
   // align-content: baseline;
   // width: 100vw;
-  background: $c-black;
+  background: $c-black  ;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -36,12 +36,13 @@
         &_social {
             display: flex;
             flex-direction: row;
+            justify-content: space-around
         }
 
-            &_icon img {
-                height: 80px;
-                width: 80px;
-                padding: 1rem;
+            &_icon {
+                // height: 80px;
+                // width: 80px;
+                padding: 1.5rem;
                 text-decoration: none;
             }
         }
@@ -59,10 +60,6 @@
 .footer_elements_social,
 .footer_elements_text {
     margin:0 auto;
-}
-
-.footer_nav_logo {
-
 }
 
 

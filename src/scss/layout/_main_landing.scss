@@ -5,6 +5,7 @@
 }
 
 .main_landing-bg {
+    background-image: url("../images/pics/hero_landing.png");
     background: linear-gradient(rgba(43, 43, 43, 0.84),rgba(72, 72, 72, 0.84));
 }
 
@@ -15,3 +16,42 @@
 .hide {
 	display: none;
 }
+
+.h3 {
+    color: red;
+}
+
+
+
+
+
+
+// English
+
+.mainenglish {
+    margin: 4rem 0 0 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(43, 43, 43, 0.5), rgba(72, 72, 72, 0.7)),
+    url("../images/pics/mainenglish.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: linear-gradient(rgba(43, 43, 43, 0.84), rgba(72, 72, 72, 0.84));
+    // background-color: linear-gradient(pink, lightblue);
+
+    &_content {
+        padding: 8rem 0 0 7.125rem;
+        width: 66vw;
+    }
+
+
+    &_quote {
+        @include quotestyle;
+    }
+
+    &_claim {
+        @include claimstyle;
+    }
+}
+
+

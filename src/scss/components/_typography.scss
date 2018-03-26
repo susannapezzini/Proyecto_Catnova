@@ -1,8 +1,25 @@
 // Typography Styles 
 
-
 @mixin titlestyle {
     font-family: $h-fontfamily;
     color: $c-black;
     font-size: 2rem;
+}
+
+
+@mixin quotestyle {
+    font-family: $p-fontfamily;
+    color: $c-white;
+    font-size: 1.5rem;
+    font-weight: $t-regular;
+    line-height: $value*2;
+}
+
+@mixin claimstyle {
+    font-family: $p-fontfamily;
+    color: $c-white;
+    font-size: 2rem;
+    font-weight: $t-medium;
+    text-transform: uppercase;
+    letter-spacing: $value/2;
 }

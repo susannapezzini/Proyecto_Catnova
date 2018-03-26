@@ -1,5 +1,5 @@
 .hero {
-    margin: 12rem 0 0 7.125rem;
+    margin: 50rem 0 0 7.125rem;
     width: 66vw;
 
     &_title {
@@ -11,7 +11,5 @@
 
     &_cta {
         font-family: $p-fontfamily;
-        font-size: $quote-size;
-        line-height: $quote-height;
     }
 }

@@ -30,6 +30,8 @@
 
     &_link:hover {
         font-weight: $t-bold;
+        color: $c-white;
+        
         }
 
     &_item {
@@ -40,6 +42,8 @@
 
     &_link {
         @include textstyle-none;
+        color: $c-white;
+       
         
     }
 }

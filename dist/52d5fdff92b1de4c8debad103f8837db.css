@@ -54,11 +54,10 @@ body {
       align-items: baseline; }
     .footer_elements_social {
       display: flex;
-      flex-direction: row; }
-    .footer_elements_icon img {
-      height: 80px;
-      width: 80px;
-      padding: 1rem;
+      flex-direction: row;
+      justify-content: space-around; }
+    .footer_elements_icon {
+      padding: 1.5rem;
       text-decoration: none; }
 
 .footer_elements_items-adress,
@@ -95,17 +94,19 @@ body {
     display: flex;
     font-weight: 400; }
   .nav_link:hover {
-    font-weight: 900; }
+    font-weight: 900;
+    color: #FAFAFA; }
   .nav_item {
     list-style: none;
     text-decoration: none;
     padding: 0 1.5rem; }
   .nav_link {
     list-style: none;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #FAFAFA; }
 
 .hero {
-  margin: 12rem 0 0 7.125rem;
+  margin: 50rem 0 0 7.125rem;
   width: 66vw; }
   .hero_title {
     font-family: "heebo", helvetica, sans-serif;
@@ -119,11 +120,10 @@ body {
 .side {
   width: 15vw;
   position: fixed;
-  top: 10rem;
+  top: 37rem;
   left: 80vw;
   margin-right: 0.8rem;
   font-family: "source sans pro", helvetica, sans-serif;
-  color: #1A1A1A;
   font-weight: 300;
   border: 3px solid #203F77;
   background-color: #FAFAFA;
@@ -184,7 +184,7 @@ body {
   width: 100vw; }
 
 .main_landing-bg {
-  background-image: url("75a6451c91078d4a63b4316354162867.png");
+  background-image: url("ed6b5cd21868b634f9054f1f50bcb912.png");
   background: linear-gradient(rgba(43, 43, 43, 0.84), rgba(72, 72, 72, 0.84)); }
 
 .visible {
@@ -195,3 +195,27 @@ body {
 
 .h3 {
   color: red; }
+
+.mainenglish {
+  margin: 4rem 0 0 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(43, 43, 43, 0.5), rgba(72, 72, 72, 0.7)), url("f34a60067c06638daedb6796f85c4cb1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .mainenglish_content {
+    padding: 8rem 0 0 7.125rem;
+    width: 66vw; }
+  .mainenglish_quote {
+    font-family: "source sans pro", helvetica, sans-serif;
+    color: #FAFAFA;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem; }
+  .mainenglish_claim {
+    font-family: "source sans pro", helvetica, sans-serif;
+    color: #FAFAFA;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem; }

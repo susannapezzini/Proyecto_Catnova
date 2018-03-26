@@ -10,12 +10,12 @@
        display: flex;
        flex-direction: column;
        font-family: $p-fontfamily;
-       font-size: $p-size;
+       font-size: 1rem;
     }
 
        &_info-title {
            font-family: $h-fontfamily;
-           font-size: $h3-size;
+           font-size: 1.5rem;
        }
    
 

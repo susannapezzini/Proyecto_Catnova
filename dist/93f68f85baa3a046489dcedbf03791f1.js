@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({5:[function(require,module,exports) {
+})({9:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],4:[function(require,module,exports) {
+},{}],6:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,19 +132,19 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":5}],3:[function(require,module,exports) {
+},{"./bundle-url":9}],7:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":4}],2:[function(require,module,exports) {
+},{"./../images/pics/hero_landing.png":[["75a6451c91078d4a63b4316354162867.png",11],11],"_css_loader":6}],4:[function(require,module,exports) {
 'use strict';
 
-require('../index.scss');
+require('../scss/index.scss');
 
 console.log('HELLO PARCEL');
-},{"../index.scss":3}],6:[function(require,module,exports) {
+},{"../scss/index.scss":7}],12:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49293' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52530' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -267,5 +267,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[6,2])
+},{}]},{},[12,4])
 //# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map

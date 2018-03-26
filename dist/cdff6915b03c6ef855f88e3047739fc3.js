@@ -71,19 +71,74 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({3:[function(require,module,exports) {
-$(document).ready(function () {
-    var alturaMax = $(document).height() - $('.footer').height();
-    $(document).scroll(function () {
-        var posicionScroll = window.scrollY + window.innerHeight;
-        if (posicionScroll > alturaMax) {
-            $('aside').addClass('fixed');
-        } else {
-            $('aside').removeClass('fixed');
-        }
-    });
-});
-},{}],12:[function(require,module,exports) {
+})({45:[function(require,module,exports) {
+var bundleURL = null;
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],36:[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+  newLink.onload = function () {
+    link.remove();
+  };
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":45}],31:[function(require,module,exports) {
+
+        var reloadCSS = require('_css_loader');
+        module.hot.dispose(reloadCSS);
+        module.hot.accept(reloadCSS);
+      
+},{"_css_loader":36}],48:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -105,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52530' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52329' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -206,5 +261,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[12,3])
-//# sourceMappingURL=/dist/9ee2f9e3a755a7aaff1097c2631c7dfb.map
+},{}]},{},[48])
+//# sourceMappingURL=/dist/cdff6915b03c6ef855f88e3047739fc3.map
