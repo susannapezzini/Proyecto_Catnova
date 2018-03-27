@@ -1,16 +1,10 @@
 html {
   font-size: 18px; }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box; }
-
 body {
   background-color: #FAFAFA;
   margin: 0;
-  padding: 0;
-  width: 100vw; }
+  padding: 0; }
 
 .button {
   background-image: linear-gradient(#FFb836, #f5a623);
@@ -71,6 +65,12 @@ body {
 .footer_elements_social,
 .footer_elements_text {
   margin: 0 auto; }
+
+.footer_elements_social_icon-facebook,
+.footer_elements_social_icon-instagram,
+.footer_elements_social_icon-linkedin,
+.footer_elements_social_icon-twitter {
+  padding: 1rem; }
 
 .nav {
   align-items: center;
@@ -180,18 +180,53 @@ body {
 
 .main_landing {
   display: flex;
-  height: 100vh;
-  width: 100vw; }
+  background-image: linear-gradient(rgba(255, 219, 118, 0.2), rgba(255, 219, 72, 0.3)), url("b59f1cc236fe6737f95193bff6657ccb.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main_landing-quote {
+    position: relative;
+    top: 25%;
+    left: 7.125rem; }
 
-.main_landing-bg {
-  background-image: url("75a6451c91078d4a63b4316354162867.png");
-  background: linear-gradient(rgba(43, 43, 43, 0.84), rgba(72, 72, 72, 0.84)); }
+.h1 {
+  font-family: "heebo", helvetica, sans-serif;
+  color: #1A1A1A;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1rem; }
 
-.visible {
-  display: block; }
+.h2_color {
+  font-family: "source sans pro", helvetica, sans-serif;
+  color: #FAFAFA;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  line-height: 1rem;
+  color: #1A1A1A;
+  margin: 3rem 0; }
 
-.hide {
-  display: none; }
+.claim {
+  font-family: "source sans pro", helvetica, sans-serif;
+  color: #1A1A1A;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  line-height: 0.8rem; }
 
-.h3 {
-  color: red; }
+.button {
+  margin: 2rem 0; }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .content_text {
+    margin: 0 3rem; }
+  .content_text-h2 {
+    font-family: "heebo", helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 2rem; }
+  .content_text-p {
+    font-family: "source sans pro", helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 1rem; }

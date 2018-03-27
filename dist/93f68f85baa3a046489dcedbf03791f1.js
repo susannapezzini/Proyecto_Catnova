@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({19:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],6:[function(require,module,exports) {
+},{}],14:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,19 +132,21 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],7:[function(require,module,exports) {
+},{"./bundle-url":19}],18:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../images/pics/hero_landing.png":[["75a6451c91078d4a63b4316354162867.png",11],11],"_css_loader":6}],4:[function(require,module,exports) {
+},{"./../images/pics/hero_landing_book.jpeg":[["b59f1cc236fe6737f9,6:[function(require,module,exports) {
+'use str,6:[function(require,module,exports) {
 'use strict';
 
 require('../scss/index.scss');
 
-console.log('HELLO PARCEL');
-},{"../scss/index.scss":7}],12:[function(require,module,exports) {
+console.lo,21:[function(require,module,exports) {
+
+var gl,21:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +168,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52530' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54056' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -264,8 +266,86 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return hmrAccept(global.require, id);
+    retu,23:[function(require,module,exports) {
+var get,23:[function(require,module,exports) {
+var getBundleURL = require('./bundle-url').getBundleURL;
+
+function loadBundlesLazy(bundles) {
+  if (!Array.isArray(bundles)) {
+    bundles = [bundles];
+  }
+
+  var id = bundles[bundles.length - 1];
+
+  try {
+    return Promise.resolve(require(id));
+  } catch (err) {
+    if (err.code === 'MODULE_NOT_FOUND') {
+      return new LazyPromise(function (resolve, reject) {
+        loadBundles(bundles).then(resolve, reject);
+      });
+    }
+
+    throw err;
+  }
+}
+
+function loadBundles(bundles) {
+  var id = bundles[bundles.length - 1];
+
+  return Promise.all(bundles.slice(0, -1).map(loadBundle)).then(function () {
+    return require(id);
   });
 }
-},{}]},{},[12,4])
-//# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map
+
+var bundleLoaders = {};
+function registerBundleLoader(type, loader) {
+  bundleLoaders[type] = loader;
+}
+
+module.exports = exports = loadBundlesLazy;
+exports.load = loadBundles;
+exports.register = registerBundleLoader;
+
+var bundles = {};
+function loadBundle(bundle) {
+  var id;
+  if (Array.isArray(bundle)) {
+    id = bundle[1];
+    bundle = bundle[0];
+  }
+
+  if (bundles[bundle]) {
+    return bundles[bundle];
+  }
+
+  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
+  var bundleLoader = bundleLoaders[type];
+  if (bundleLoader) {
+    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
+      if (resolved) {
+        module.bundle.modules[id] = [function (require, module) {
+          module.exports = resolved;
+        }, {}];
+      }
+
+      return resolved;
+    });
+  }
+}
+
+function LazyPromise(executor) {
+  this.executor = executor;
+  this.promise = null;
+}
+
+LazyPromise.prototype.then = function (onSuccess, onError) {
+  return this.promise || (this.promise = new Promise(this.executor).then(onSuccess, onError));
+};
+
+LazyPromise.prototype.catch = function (onError) {
+  return this.promise || (this.promise = new Promise(this.execu,0:[function(require,module,exports) {
+var b=re,0:[function(require,module,exports) {
+var b=require(23);
+},{}]},{},[21,0,6])
+//# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map91f1.map

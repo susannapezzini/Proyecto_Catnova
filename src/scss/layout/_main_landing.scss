@@ -1,22 +1,61 @@
 .main_landing {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    background-image: linear-gradient(rgba(255, 219, 118, 0.2),rgba(255, 219, 72, 0.3)),
+    url("../images/pics/hero_landing_book.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-quote {
+      position: relative;
+      top: 25%;
+      left: 7.125rem;
+    }
 }
 
-.main_landing-bg {
-    background-image: url("../images/pics/hero_landing.png");
-    background: linear-gradient(rgba(43, 43, 43, 0.84),rgba(72, 72, 72, 0.84));
+.h1 {
+    @include titlestyle;
+    line-height: 1rem;
 }
 
-.visible {
-	display: block;
+.h2_color {
+    @include quotestyle;
+    line-height: 1rem;
+    color: $c-black;
+    margin: 3rem 0;
 }
 
-.hide {
-	display: none;
+.claim {
+    @include claimstyle;
+    line-height: 0.8rem;
 }
 
-.h3 {
-    color: red;
+.button {
+    margin: 2rem 0;
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &_text {
+        margin: 0 3rem;
+    }
+
+    &_text-h2 {
+        @include h2style;
+    }
+
+    &_text-p {
+        @include paragraph;
+    }
+}
+
+
+// .visible {
+// 	display: block;
+// }
+
+// .hide {
+// 	display: none;
+// }
