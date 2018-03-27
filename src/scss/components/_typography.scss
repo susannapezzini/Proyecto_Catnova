@@ -6,6 +6,28 @@
     font-size: 2rem;
 }
 
+@mixin h2style {
+    font-family: $h-fontfamily;
+    color: $c-black;
+    font-size: 2rem;
+}
+
+@mixin h3style {
+    font-family: $h-fontfamily;
+    color: $c-black;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: $t-medium;
+}
+
+@mixin h6style {
+    font-family: $p-fontfamily;
+    color: $c-black;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 0.1rem;
+}
+
 
 @mixin quotestyle {
     font-family: $p-fontfamily;
@@ -17,9 +39,39 @@
 
 @mixin claimstyle {
     font-family: $p-fontfamily;
+    color: $c-black;
+    font-size: 1.2rem;
+    font-weight: $t-regular;
+    line-height: $value*2;
+}
+
+
+@mixin claimstyle-hero {
+    font-family: $p-fontfamily;
     color: $c-white;
     font-size: 2rem;
     font-weight: $t-medium;
-    text-transform: uppercase;
-    letter-spacing: $value/2;
+    // text-transform: uppercase;
+    // letter-spacing: $value/2;
+}
+
+
+@mixin ctastyle {
+        font-family: $p-fontfamily;
+        color: $c-black;
+        font-weight: $t-medium;
+        font-size: 1.5rem;
+}
+
+
+@mixin textlink-style {
+    font-family: $p-fontfamily;
+    color: $c-orange;
+    font-weight: $t-medium;
+}
+
+@mixin paragraph {
+    font-family: $p-fontfamily;
+    color: $c-black;
+    font-size: 1rem;
 }

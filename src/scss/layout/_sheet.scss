@@ -1,0 +1,40 @@
+.sheet {
+    margin: 0;
+
+    &_title {
+        @include h3style;
+    }
+
+    &_divider {
+        font-family: $p-fontfamily;
+        font-weight: $t-bold;
+    }
+
+    &_link,
+    &_download {
+        @include textlink-style;
+        @include textstyle-none;
+    }
+
+    &_modules {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    &_divider {
+        @include h6style;
+    }
+
+    &_divider p {
+        line-height: 1.5rem;
+    }
+
+    &_divider ul {
+        list-style-type: none;
+    }
+
+    &_divider li {
+        list-style-type: none;
+    }
+}
