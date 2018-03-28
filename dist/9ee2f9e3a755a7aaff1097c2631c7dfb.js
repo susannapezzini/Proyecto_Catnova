@@ -83,7 +83,7 @@ $(document).ready(function () {
         }
     });
 });
-},{}],21:[function(require,module,exports) {
+},{}],26:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -105,7 +105,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54056' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59982' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -206,5 +206,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[21,5])
+},{}]},{},[26,5])
 //# sourceMappingURL=/dist/9ee2f9e3a755a7aaff1097c2631c7dfb.map

@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({19:[function(require,module,exports) {
+})({24:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],14:[function(require,module,exports) {
+},{}],18:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,7 +132,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":19}],18:[function(require,module,exports) {
+},{"./bundle-url":24}],23:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -144,9 +144,9 @@ module.exports = reloadCSS;
 
 require('../scss/index.scss');
 
-console.lo,21:[function(require,module,exports) {
+console.lo,26:[function(require,module,exports) {
 
-var gl,21:[function(require,module,exports) {
+var gl,26:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -168,7 +168,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54056' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59982' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -266,8 +266,7 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    retu,23:[function(require,module,exports) {
-var get,23:[function(require,module,exports) {
+    retu,28:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -344,8 +343,9 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 };
 
 LazyPromise.prototype.catch = function (onError) {
-  return this.promise || (this.promise = new Promise(this.execu,0:[function(require,module,exports) {
-var b=re,0:[function(require,module,exports) {
-var b=require(23);
-},{}]},{},[21,0,6])
-//# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map91f1.map
+  return this.promise || (this.promise = new Promise(this.executor).catch(onError));
+};
+},{"./bundle-url":24}],0:[function(require,module,exports) {
+var b=require(28);b.load([["b59f1cc236fe6737f95193bff6657ccb.jpeg",25],6]);
+},{}]},{},[26,0])
+//# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map

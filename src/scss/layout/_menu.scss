@@ -1,11 +1,12 @@
 .nav {
     // text-transform: uppercase;
     align-items: center;
-    background-image:$c-bluegradient;
+    // background-image:$c-bluegradient;
+    background: #e4e4e4;
     display: flex;
     font-family: $p-fontfamily;
     font-size: 1rem;
-    height: 5rem;
+    height: 3rem;
     justify-content: space-between;
     margin: 0;
     padding: 0 7.125rem;
@@ -17,12 +18,12 @@
     
 
     &_logo {
-        height: 60px;
+        height: 50px;
     }
 
     &_list {
         align-items: center;
-        color: $c-white;
+        color: $c-black;
         display:flex;
         font-weight: $t-regular;
         
@@ -35,11 +36,15 @@
     &_item {
         @include textstyle-none;
         padding: 0 1.5rem;
-        
-    }
+        }
 
     &_link {
         @include textstyle-none;
         
     }
+}
+
+ul, a {
+    font-family: $p-fontfamily;
+    color: $c-black;
 }
