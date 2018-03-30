@@ -75,3 +75,9 @@
     color: $c-black;
     font-size: 1rem;
 }
+
+@mixin alternative-text {
+    font-family: $p-fontfamily;
+    color: $c-black;
+    font-size: 0.75rem;
+}

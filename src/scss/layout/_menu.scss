@@ -1,7 +1,7 @@
 .nav {
     // text-transform: uppercase;
     align-items: center;
-    background-image:$c-bluegradient;
+    background-image: $c-bluegradient;
     display: flex;
     font-family: $p-fontfamily;
     font-size: 1rem;
@@ -14,10 +14,29 @@
     top: 0;
     left: 0;
     z-index: 1;
+
+    @media only screen and (max-width:$mq-large) {
+        justify-content: space-around;
+        padding: 0 2rem;
+    }
+
+    @media only screen and (max-width:$mq-medium) {
+        justify-content: space-around;
+        padding: 0 1rem;
+    }
+
+    @media only screen and (max-width:$mq-small) {
+        padding: 0 1rem;
+        font-size: 0.75rem;
+    }
     
 
     &_logo {
         height: 60px;
+
+        @media only screen and (max-width:$mq-medium) {
+            display: none;
+        }
     }
 
     &_list {
@@ -25,6 +44,10 @@
         color: $c-white;
         display:flex;
         font-weight: $t-regular;
+
+        @media only screen and (max-width:$mq-small) {
+            padding: 0 0.25rem;
+        }
         
     }
 

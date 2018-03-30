@@ -14,3 +14,34 @@
         font-weight: $t-semibold;
     }
 }
+
+.contact {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 100vw;
+
+    &_block {
+        padding: $value*2.5;
+        margin: 0;
+        height: 75vh;
+        width: 50vw;
+        outline: 3px solid lime;
+
+    }
+
+    // &_block img {
+    //     width: 130px;
+
+    // }
+}
+
+.contact h2 {
+    margin:0;
+    @include h2style;
+}
+
+.alternative {
+    @include alternative-text;
+    margin: 0;
+}

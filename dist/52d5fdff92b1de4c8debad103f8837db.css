@@ -24,6 +24,11 @@ body {
   margin: 0;
   padding: 1rem 1.5rem;
   text-align: center;
+  text-decoration: none;
+  margin: 1.5rem 1.5rem 1.5rem 0; }
+
+.button a {
+  list-style-type: none;
   text-decoration: none; }
 
 .button:hover {
@@ -86,13 +91,31 @@ body {
   top: 0;
   left: 0;
   z-index: 1; }
+  @media only screen and (max-width: 1024px) {
+    .nav {
+      justify-content: space-around;
+      padding: 0 2rem; } }
+  @media only screen and (max-width: 768px) {
+    .nav {
+      justify-content: space-around;
+      padding: 0 1rem; } }
+  @media only screen and (max-width: 340px) {
+    .nav {
+      padding: 0 1rem;
+      font-size: 0.75rem; } }
   .nav_logo {
     height: 60px; }
+    @media only screen and (max-width: 768px) {
+      .nav_logo {
+        display: none; } }
   .nav_list {
     align-items: center;
     color: #FAFAFA;
     display: flex;
     font-weight: 400; }
+    @media only screen and (max-width: 340px) {
+      .nav_list {
+        padding: 0 0.25rem; } }
   .nav_link:hover {
     font-weight: 900;
     color: #FAFAFA; }
@@ -115,7 +138,13 @@ body {
     font-weight: 500; }
   .sheet_divider {
     font-family: "source sans pro", helvetica, sans-serif;
-    font-weight: 900; }
+    font-weight: 900;
+    font-family: "source sans pro", helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 0.1rem;
+    line-height: 1rem; }
   .sheet_link, .sheet_download {
     font-family: "source sans pro", helvetica, sans-serif;
     color: #f5a623;
@@ -126,18 +155,32 @@ body {
     display: flex;
     align-items: baseline;
     justify-content: space-around; }
-  .sheet_divider {
+    .sheet_modules-block {
+      padding: 1rem 1rem 1rem 0; }
+  .sheet_claim {
     font-family: "source sans pro", helvetica, sans-serif;
     color: #1A1A1A;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 0.1rem; }
-  .sheet_divider p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem; }
+  .sheet_modules-block p {
     line-height: 1.5rem; }
-  .sheet_divider ul {
-    list-style-type: none; }
-  .sheet_divider li {
-    list-style-type: none; }
+  .sheet_modules-block ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0; }
+  .sheet_modules-blocklil {
+    padding: 0;
+    margin: 0; }
+
+.banner {
+  background-image: url("ff90e744b934c12e5b0f86fe43a7cdda.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  height: 25vh;
+  margin: 4rem 7.125rem; }
 
 .hero {
   margin: 4rem 0 0 7.125rem;
@@ -190,30 +233,55 @@ body {
   .sheet_divider {
     font-weight: 600; }
 
+.contact {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  width: 100vw; }
+  .contact_block {
+    padding: 2.5rem;
+    margin: 0;
+    height: 75vh;
+    width: 50vw;
+    outline: 3px solid lime; }
+
+.contact h2 {
+  margin: 0;
+  font-family: "heebo", helvetica, sans-serif;
+  color: #1A1A1A;
+  font-size: 2rem; }
+
+.alternative {
+  font-family: "source sans pro", helvetica, sans-serif;
+  color: #1A1A1A;
+  font-size: 0.75rem;
+  margin: 0; }
+
 .hero_contact {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh; }
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("dd5295ddfb1dfcb71ea28a4130d3a5e9.png"); }
   .hero_contact_info {
-    text-align: center;
     display: flex;
     flex-direction: column;
     font-family: "source sans pro", helvetica, sans-serif;
-    font-size: 1rem; }
+    font-size: 1rem;
+    background-color: #FAFAFA;
+    margin: 7.125rem 0 0 7.125rem;
+    padding: 2rem;
+    width: 40vw;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 16px 0 rgba(0, 0, 0, 0.19); }
   .hero_contact_info-title {
     font-family: "heebo", helvetica, sans-serif;
     font-size: 1.5rem; }
-  .hero_contact_maps img {
-    height: 500px;
-    width: 990px; }
-
-.hero_contact_info-title,
-.hero_contact_info-adress,
-.hero_contact_info-tel,
-.hero_contact_info-correo {
-  padding: 0 8rem 0 8rem; }
+  .hero_contact_info-title h1 {
+    margin: 0; }
 
 .hero_contact_maps {
   padding: 3rem 0 3rem 0; }

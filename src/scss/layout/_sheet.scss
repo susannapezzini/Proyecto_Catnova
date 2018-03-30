@@ -8,6 +8,9 @@
     &_divider {
         font-family: $p-fontfamily;
         font-weight: $t-bold;
+        @include h6style;
+        line-height: $value;
+        
     }
 
     &_link,
@@ -20,21 +23,37 @@
         display: flex;
         align-items: baseline;
         justify-content: space-around;
+
+        &-block {
+        padding: 1rem 1rem 1rem 0;
+        }
     }
 
-    &_divider {
-        @include h6style;
+      &_claim {
+        @include claimstyle;
     }
 
-    &_divider p {
+    &_modules-block p {
         line-height: 1.5rem;
     }
 
-    &_divider ul {
-        list-style-type: none;
+    &_modules-block ul {
+        @include textstyle-none;
+        @include zero-margin-padding;
     }
 
-    &_divider li {
-        list-style-type: none;
+    &_modules-blocklil {
+        @include zero-margin-padding;       
     }
+}
+
+.banner {
+    // width: 100vw;
+    background-image: url("../images/pics/english_divider.jpg");       
+    // background: linear-gradient(rgba(43, 43, 43, 0.1),rgba(72, 72, 72, 0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    height: 25vh;
+    margin: 4rem 7.125rem;
 }
