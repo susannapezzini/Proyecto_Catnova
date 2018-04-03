@@ -33,14 +33,9 @@
     margin: 2rem 0;
 }
 
-.h3 {
-    @include h3style; }
+.h3 { @include h3style; }
 
-.content,
-.content_two,
-.content_img,
-.content_video,
-.content_three {
+.content, .content_two, .content_img, .content_video, .content_three {
     margin: 0;
     padding: 0;
     display: flex;
@@ -54,12 +49,13 @@
 
     &_text-h2 {
         @include h2style;
+        padding-bottom: 1.5rem;
     }
 
     &_text-p p {
         @include paragraph;
         line-height: 1.5rem;
-        margin: 0;
+        margin: 0rem;
     }
 }
 
@@ -67,26 +63,80 @@
     background-color: rgb(216, 214, 214);
 }
 
-.content p,
-.content_ingles p h3 {
+.content_four {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin: 0rem 1rem 13rem 1rem;
+
+    &_testimonial {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 0 0 0;
+
+    &-text p {
+        @include paragraph;
+        line-height: 1.5rem;
+        margin: 0rem 1rem;
+       }
+
+       &-h3 p {
+        @include h3style;
+        margin: 0rem 1rem;
+       }
+    }
+}
+
+.content p, .content_ingles p h3 {
+    display: flex;
+    // justify-content: center;
     @include paragraph;
     line-height: 1.5rem;
     }
 
-    .content_text-one,
-    .content_text-two,
-    .content_text-three {
+    .content_text-one, .content_text-two, .content_text-three {
         display: flex;
         flex-direction: row;
+        padding: 1rem 0;
     }
 
+.content_ingles {
+    margin: 3rem 3rem;
+}
 
-// .visible {
-// 	display: block;
-// }
+.content_five {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 
-// .hide {
-// 	display: none;
-// }
+    &_first {
+        width: 50%;
+        background-color: #fff;
+    }
+
+    &-text {
+        margin: 3rem 3rem;
+
+        &-h2 {
+            @include h2style;
+        }
+
+        &-p {
+            @include paragraph;
+            line-height: 0.75rem;
+        }
+    }
+
+    &_logo {
+        margin: 3rem 3rem;
+
+        &-three {
+            margin: 1rem 0 1rem 0;
+        }
+    }
+
+    &_second {
+        width: 50%;
+    }
+}
