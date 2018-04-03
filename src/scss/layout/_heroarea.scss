@@ -1,6 +1,16 @@
+.maincontent {
+    width: 66vw;
+
+    @media screen and (max-width:$mq-small) {
+        width: 100vw;
+        margin: 0;
+    }
+}
+
 .hero {
     margin: 4rem 0 0 7.125rem;
-    width: 66vw;
+    
+    @include query-body;
 
     &_title {
        @include h2style;

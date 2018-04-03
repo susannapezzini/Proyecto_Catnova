@@ -1,6 +1,12 @@
 .sheet {
     margin: 0;
 
+    @media screen and (max-width:$mq-small) {
+        width: 100vw;
+        padding: $value;
+        margin: 0;
+    }
+
     &_title {
         @include h3style;
     }
@@ -23,6 +29,10 @@
         display: flex;
         align-items: baseline;
         justify-content: space-around;
+
+        @media screen and (max-width:$mq-small) {
+            flex-direction: column;
+        }
 
         &-block {
         padding: 1rem 1rem 1rem 0;
@@ -56,4 +66,12 @@
     color: transparent;
     height: 25vh;
     margin: 4rem 7.125rem;
+
+
+    @media screen and (max-width:$mq-small) {
+    margin: $value*2 0;
+    width: 100vw;
+    height: 20vh;
+    }
+    
 }

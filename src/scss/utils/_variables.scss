@@ -9,6 +9,7 @@ $c-orangegradient: linear-gradient(#FFb836,#f5a623);
 $c-orange:#f5a623;
 $c-darkblue:#203F77;
 $c-shadow:#c9c9c9;
+$c-whitegradient: linear-gradient(#ffffff,#919191);
 
 
 // Typography Variables
@@ -28,6 +29,6 @@ $value: 1rem;
 
 // Media Queries
 
-$mq-small: 340px;
-$mq-medium: 768px;
-$mq-large: 1024px; 
+$mq-small: 768px;
+$mq-medium: 1024px;
+// $mq-large: 1024px; 

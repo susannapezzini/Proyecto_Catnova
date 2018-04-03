@@ -13,6 +13,13 @@
     margin: 0;
 }
 
+@mixin query-body {
+    @media screen and (max-width:$mq-small) {
+        padding: $value;
+        margin: 0;
+    }
+}
+
 
 html {
     font-size: 18px;
@@ -29,6 +36,10 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    @media screen and (max-width:$mq-small) {
+        @include zero-margin-padding;
+        width: 100vw;
+    }
 }
 
 

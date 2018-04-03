@@ -1,35 +1,51 @@
 .hero_contact {
+    align-items: center;
+    background-image: url('../images/pics/map_contactos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     height: 100vh;
+    justify-content: space-between;
     width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../images/pics/map_contactos.png');
+
+    @media screen and (max-width:$mq-small) {
+       @include zero-margin-padding;
+    }
 
     
     &_info {
     //    text-align: center;
+       background-color: $c-white;
+       box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
        display: flex;
        flex-direction: column;
        font-family: $p-fontfamily;
        font-size: 1rem;
-       background-color: $c-white;
        margin: 7.125rem 0 0 7.125rem;
        padding: $value*2;
        width: 40vw;
-       box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 8px 16px 0 rgba(0,0,0,0.19);
+
+       @media screen and (max-width:$mq-small) {
+           width: 100vw;
+           padding: 1rem;
+           margin: 0;
+           position: absolute;
+           top: 3rem;
+        }
+
     }
 
        &_info-title {
            font-family: $h-fontfamily;
-           font-size: 1.5rem;
        }
 
         &_info-title h1 {
             margin: 0;
+
+            @media screen and (max-width:$mq-small) {
+                font-size: 1.5rem;
+            }
         }
    
 

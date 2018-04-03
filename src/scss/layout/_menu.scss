@@ -1,7 +1,7 @@
 .nav {
     // text-transform: uppercase;
     align-items: center;
-    background-image: $c-bluegradient;
+    background-image: $c-whitegradient;
     display: flex;
     font-family: $p-fontfamily;
     font-size: 1rem;
@@ -15,45 +15,34 @@
     left: 0;
     z-index: 1;
 
-    @media screen and (max-width:$mq-large) {
-        justify-content: space-around;
-        padding: 0 2rem;
-    }
-
-    @media screen and (max-width:$mq-medium) {
-        justify-content: space-around;
-        padding: 0 1rem;
-    }
-
     @media screen and (max-width:$mq-small) {
         padding: 0 1rem;
         font-size: 0.75rem;
+        height: 3rem;
+        justify-content: space-around;
+        margin: 0;
     }
     
 
     &_logo {
         height: 60px;
 
-        @media screen and (max-width:$mq-medium) {
+        @media screen and (max-width:$mq-small) {
             display: none;
         }
     }
 
     &_list {
         align-items: center;
-        color: $c-white;
+        color: $c-darkblue;
         display:flex;
         font-weight: $t-regular;
-
-        @media screen and (max-width:$mq-small) {
-            padding: 0 0.25rem;
-        }
         
     }
 
     &_link:hover {
         font-weight: $t-bold;
-        color: $c-white;
+        color: $c-darkblue;
         
         }
 
@@ -65,7 +54,7 @@
 
     &_link {
         @include textstyle-none;
-        color: $c-white;
+        color: $c-darkblue;
        
         
     }

@@ -4,12 +4,18 @@
     font-family: $h-fontfamily;
     color: $c-black;
     font-size: 2rem;
+        @media screen and (max-width:$mq-small) {
+            font-size: 1.5rem;
+        }
 }
 
 @mixin h2style {
     font-family: $h-fontfamily;
     color: $c-black;
     font-size: 2rem;
+        @media screen and (max-width:$mq-small) {
+            font-size: 1.3rem;
+        }
 }
 
 @mixin h3style {
@@ -35,6 +41,11 @@
     font-size: 1.5rem;
     font-weight: $t-regular;
     line-height: $value*2;
+
+    @media screen and (max-width:$mq-small) {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
 }
 
 @mixin claimstyle {
@@ -43,6 +54,11 @@
     font-size: 1.2rem;
     font-weight: $t-regular;
     line-height: $value*2;
+
+    @media screen and (max-width:$mq-small) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 }
 
 
@@ -53,6 +69,11 @@
     font-weight: $t-medium;
     // text-transform: uppercase;
     // letter-spacing: $value/2;
+
+    @media screen and (max-width:$mq-small) {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
 }
 
 
