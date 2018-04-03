@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({18:[function(require,module,exports) {
+})({22:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -132,19 +132,21 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":18}],9:[function(require,module,exports) {
+},{"./bundle-url":22}],15:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./..\\images\\pics\\english_divider.jpg":[["ff90e744b934c12e5b0f86fe43a7cdda.jpg",19],19],"./..\\images\\pics\\map_contactos.png":[["dd5295ddfb1dfcb71ea28a4130d3a5e9.png",22],22],"./..\\i,3:[function(require,module,exports) {
+},{"./..\\images\\pics\\english_divider.jpg":[["ff90e744b934c12e5b0f86fe43a7cdda.jpg",16],16],"./..\\images\\pics\\map_contactos.png":[["dd5295ddfb1dfcb71ea28a4130d3a5e9.png",17],17],"./..\\images\\pics\\hero_landing.png":[["ed6b5cd21868b634f9054f1f50bcb912.png",19],19],"./..\\images\\pics\\mainenglish.jpg":[["f34a60067c06638daedb67,56:[function(require,module,exports) {
+
+,6:[function(require,module,exports) {
 'use strict';
 
 require('../scss/index.scss');
 
 console.log('HELLO PARCEL');
-},{"../scss/index.scss":9}],23:[function(require,module,exports) {
+},{"../scss/index.scss":15}],73:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +168,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64519' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61794' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -267,7 +269,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],25:[function(require,module,exports) {
+},{}],74:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -346,7 +348,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":18}],0:[function(require,module,exports) {
-var b=require(25);b.load([["ff90e744b934c12e5b0f86fe43a7cdda.jpg",19],["dd5295ddfb1dfcb71ea28a4130d3a5e9.png",22],["ed6b5cd21868b634f9054f1f50bcb912.png",21],["f34a60067c06638daedb6796f85c4cb1.jpg",20],3]);
-},{}]},{},[23,0])
-//# sourceMappingURL=/dist/52d5fdff92b1de4c8debad103f8837db.map
+},{"./bundle-url":19}],0:[function(require,module,exports) {
+var b=require(74);
+},{}]},{},[73,0,4])
+//# sourceMappingURL=/dist/52d5fdff92b1de4c8debad103f8837db.mapap

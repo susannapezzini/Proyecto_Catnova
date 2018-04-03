@@ -1,11 +1,15 @@
 .sheet {
-    margin: 0;
+        margin: 6rem 0 0 7.125rem;
+        width: 66vw;
+        font-family: $p-fontfamily;
+        line-height: 1.5rem;
+        font-weight: $t-light;
 
-    @media screen and (max-width:$mq-small) {
-        width: 100vw;
-        padding: $value;
-        margin: 0;
-    }
+        @media screen and (max-width:$mq-small) {
+            width: 100vw;
+            padding: $value;
+            margin: 0;
+        }
 
     &_title {
         @include h3style;
@@ -52,9 +56,6 @@
         @include zero-margin-padding;
     }
 
-    &_modules-blocklil {
-        @include zero-margin-padding;       
-    }
 }
 
 .banner {
@@ -74,4 +75,12 @@
     height: 20vh;
     }
     
+}
+
+#baselevel,
+#mediumlevel {
+    margin-top: 5rem;
+    @media screen and (max-width:$mq-small) {
+        margin-top: 3rem;
+    }
 }

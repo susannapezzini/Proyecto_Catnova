@@ -43,7 +43,7 @@
     &_link:hover {
         font-weight: $t-bold;
         color: $c-darkblue;
-        
+        border-bottom: 2px solid $c-darkblue;        
         }
 
     &_item {
