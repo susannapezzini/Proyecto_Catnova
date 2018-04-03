@@ -15,17 +15,17 @@
     left: 0;
     z-index: 1;
 
-    @media only screen and (max-width:$mq-large) {
+    @media screen and (max-width:$mq-large) {
         justify-content: space-around;
         padding: 0 2rem;
     }
 
-    @media only screen and (max-width:$mq-medium) {
+    @media screen and (max-width:$mq-medium) {
         justify-content: space-around;
         padding: 0 1rem;
     }
 
-    @media only screen and (max-width:$mq-small) {
+    @media screen and (max-width:$mq-small) {
         padding: 0 1rem;
         font-size: 0.75rem;
     }
@@ -34,7 +34,7 @@
     &_logo {
         height: 60px;
 
-        @media only screen and (max-width:$mq-medium) {
+        @media screen and (max-width:$mq-medium) {
             display: none;
         }
     }
@@ -45,7 +45,7 @@
         display:flex;
         font-weight: $t-regular;
 
-        @media only screen and (max-width:$mq-small) {
+        @media screen and (max-width:$mq-small) {
             padding: 0 0.25rem;
         }
         

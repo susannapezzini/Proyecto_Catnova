@@ -91,21 +91,21 @@ body {
   top: 0;
   left: 0;
   z-index: 1; }
-  @media only screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .nav {
       justify-content: space-around;
       padding: 0 2rem; } }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .nav {
       justify-content: space-around;
       padding: 0 1rem; } }
-  @media only screen and (max-width: 340px) {
+  @media screen and (max-width: 340px) {
     .nav {
       padding: 0 1rem;
       font-size: 0.75rem; } }
   .nav_logo {
     height: 60px; }
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .nav_logo {
         display: none; } }
   .nav_list {
@@ -113,7 +113,7 @@ body {
     color: #FAFAFA;
     display: flex;
     font-weight: 400; }
-    @media only screen and (max-width: 340px) {
+    @media screen and (max-width: 340px) {
       .nav_list {
         padding: 0 0.25rem; } }
   .nav_link:hover {
