@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({59:[function(require,module,exports) {
+})({32:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],53:[function(require,module,exports) {
+},{}],26:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,21 +132,21 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":59}],58:[function(require,module,exports) {
+},{"./bundle-url":32}],31:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../images/pics/hero_landing_book.jpeg":[["b59f1cc236fe6737f9,32:[function(require,module,exports) {
-'use st,32:[function(require,module,exports) {
+},{"./../images/pics/hero_landing_book.jpeg":[["b59f1cc236fe6737f9,6:[function(require,module,exports) {
+'use str,6:[function(require,module,exports) {
 'use strict';
 
 require('../scss/index.scss');
 
-console.lo,68:[function(require,module,exports) {
+console.lo,34:[function(require,module,exports) {
 
-var gl,68:[function(require,module,exports) {
+var gl,34:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -168,7 +168,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63202' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61404' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -266,8 +266,8 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    retu,69:[function(require,module,exports) {
-var get,69:[function(require,module,exports) {
+    retu,36:[function(require,module,exports) {
+var get,36:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -346,6 +346,6 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.execu,0:[function(require,module,exports) {
 var b=re,0:[function(require,module,exports) {
-var b=require(69);
-},{}]},{},[68,0,32])
+var b=require(36);
+},{}]},{},[34,0,6])
 //# sourceMappingURL=/dist/93f68f85baa3a046489dcedbf03791f1.map91f1.map

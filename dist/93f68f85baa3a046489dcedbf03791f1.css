@@ -253,11 +253,14 @@ ul, a {
 .content_four {
   display: flex;
   flex-direction: row;
-  margin: 0rem 1rem 13rem 1rem; }
+  margin: 0rem 1rem 6rem 1rem; }
+  .content_four_text-p {
+    margin-top: 5rem;
+    margin-left: 3rem; }
   .content_four_testimonial {
     display: flex;
     flex-direction: row;
-    margin: 2.5rem 0 0 0; }
+    margin: 2.5rem 0 0 3rem; }
     .content_four_testimonial-text p {
       font-family: "source sans pro", helvetica, sans-serif;
       color: #1A1A1A;
@@ -293,8 +296,7 @@ ul, a {
   padding: 0;
   margin: 0; }
   .content_five_first {
-    width: 50%;
-    background-color: #fff; }
+    width: 47%; }
   .content_five-text {
     margin: 3rem 3rem; }
     .content_five-text-h2 {
@@ -311,4 +313,10 @@ ul, a {
     .content_five_logo-three {
       margin: 1rem 0 1rem 0; }
   .content_five_second {
-    width: 50%; }
+    margin: 3rem 3rem; }
+    .content_five_second-title {
+      font-family: "heebo", helvetica, sans-serif;
+      color: #1A1A1A;
+      font-size: 2rem; }
+    .content_five_second-img {
+      margin: 0; }
